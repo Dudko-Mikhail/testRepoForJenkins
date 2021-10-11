@@ -11,6 +11,9 @@ public class App {
     }
 
     public static int coveredMethod(int a) {
+        System.out.println("more lines");
+        System.out.println("need");
+        System.out.println("to be covered");
         return a;
     }
 }
