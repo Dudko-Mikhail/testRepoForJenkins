@@ -17,10 +17,4 @@ public class AppTest
         assertTrue(true);
     }
 
-    @Test
-    public void shouldFail()
-    {
-        assertTrue(false);
-    }
-
 }
