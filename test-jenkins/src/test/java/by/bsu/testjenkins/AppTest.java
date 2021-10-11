@@ -1,5 +1,6 @@
 package by.bsu.testjenkins;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -17,4 +18,10 @@ public class AppTest
         assertTrue(true);
     }
 
+    @Test
+    public void coveredMethodTest() {
+        int expected = 5;
+        int actual = App.coveredMethod(5);
+        assertEquals(actual, expected);
+    }
 }

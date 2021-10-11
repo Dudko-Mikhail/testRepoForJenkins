@@ -9,4 +9,8 @@ public class App {
         System.out.println("Hello World!");
 	System.out.println("second_build");
     }
+
+    public static int coveredMethod(int a) {
+        return a;
+    }
 }
